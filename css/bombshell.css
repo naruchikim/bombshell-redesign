@@ -1,0 +1,209 @@
+html {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+
+::selection {
+    color: #ffffff;
+    background-color: #372d54;
+}
+
+/* FONTS */
+
+/* NAVIGATION */
+
+a.nav {
+    text-decoration: none;
+    font-family: "haylard-display", sans-serif;
+    font-size: 24px;
+    color: #372d54;
+    font-weight: 600;
+    display: inline-block;
+    transition: .5s;
+    text-transform: uppercase;
+}
+
+a.nav:hover {
+    color: #ffffff;
+    transition: .5s;
+}
+
+.nav_div {
+    text-decoration: none;
+    font-family: "haylard-display", sans-serif;
+    font-size: 24px;
+    color: #372d54;
+    font-weight: 600;
+    position: fixed;
+    width: auto;
+    right: 25px;
+    top: 25px;
+    text-align: right;
+    text-transform: uppercase;
+    display: inherit;
+    z-index: 1;
+}
+
+.nav_link {
+    margin-right: 15px;
+}
+
+/* MAIN BODY TEXT */
+
+p, body {
+    font-family: "halyard-display", sans-serif;
+    color: #372d54;
+    font-size: 14px;
+}
+
+.whitebg_rightshadow {
+    background-color: #ffffff;
+    line-height: 16.5pt;
+    display: inline;
+    padding: 0px 0px;
+    margin-right: 10px;
+    white-space: pre-wrap;
+    box-shadow: 3px 0px 0px #ffffff;
+}
+
+p.whitebg_leftshadow {
+    background-color: #ffffff;
+    line-height: 16.5pt;
+    display: inline;
+    padding: 0px 0px;
+    margin-right: 10px;
+    white-space: pre-wrap;
+    box-shadow: -5px 0px 0px #ffffff;
+}
+
+h1 {
+    font-family: "halyard-display", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: #b4574d;
+    font-size: 48px;
+    background-color: #ffffff;
+    padding-right: 10px;
+    padding-left: 20px;
+    display: inline;
+    margin-left: -5px;
+    line-height: 51pt;
+}
+
+/* LANDING */
+
+#queen_tess {
+    height: 100vh;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+}
+
+/* ABOUT*/
+
+.about {
+    width: 750px;
+    left: 50%;
+    margin-left: -375px;
+    position: relative;
+    padding-top: 45px;
+    height: 750px;
+}
+
+#about_text {
+    width: 410px;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+    top: 300px;
+}
+
+#tess_flowers {
+    width: 446px;
+    height: 580px;
+    z-index: 0;
+    position: absolute;
+    left: 150px;
+    top: 50px;
+}
+
+/* CHAIR TESS */
+
+#chair_tess {
+    width: 100%;
+    position: relative;
+}
+
+/* BRANDS */
+
+#brands {
+    width: 762px;
+    left: 50%;
+    margin-left: -381px;
+    position: relative;
+    padding-top: 90px;
+    height: 680px;
+}
+
+#brands_text {
+    width: 410px;
+    height: auto;
+    position: absolute;
+    left: 350px;
+    top: 350px;
+}
+
+.brands_pic {
+    width: 446px;
+    height: 580px;
+    position: absolute;
+}
+
+/* HAT TESS */
+
+#hat_tess {
+    width: 100%;
+    position: relative;
+}
+
+/* STORE */
+
+#store {
+    width: 650px;
+    left: 50%;
+    margin-left: -325px;
+    position: relative;
+    padding-top: 90px;
+    height: 680px;
+    margin-bottom: 50px;
+}
+
+#tess_blackdress {
+    width: 650px;
+    height: auto;
+    position: absolute;
+}
+
+#storeinfo {
+    position: absolute;
+    width: 400px;
+    left: 50%;
+    margin-left: -200px;
+    top: 490px;
+}
+
+#location {
+    position: relative;
+    width: 200px;
+    float: left;
+}
+
+#hours {
+    position: relative;
+    width: 150px;
+    float: left;
+    margin-left: 50px;
+}
